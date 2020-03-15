@@ -1,7 +1,11 @@
-var all = document.getElementsByTagName("*"),
-  i = 0,
-  rect;
-for (; i < all.length; i++) {
-  rect = all[i].getBoundingClientRect();
-  if (rect.right < 0) all[i].style.outline = "1px solid red";
+if (screen.width >= 1500) {
+  document.write("<style>body{zoom:115%;}");
+}
+
+if (screen.width >= 2000) {
+  document.write("<style>body{zoom:135%;}");
+}
+
+if (screen.width >= 2500) {
+  document.write("<style>body{zoom:150%;}");
 }

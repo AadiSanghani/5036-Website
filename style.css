@@ -118,8 +118,12 @@ body {
   height: 350px;
   width: 500px;
   position: relative;
-  top: -10px;
+  top: 10px;
   left: -35px;
+}
+.LearnMore {
+  padding: 10px;
+  marign: 30px;
 }
 
 /* Footer */
