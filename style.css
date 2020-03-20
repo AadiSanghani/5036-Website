@@ -223,6 +223,32 @@ hr.light {
     top: -275px;
     left: -200px;
   }
+  .whatIsFirstText {
+    font-size: 300%;
+  }
+  .photoCaption {
+    font-size: 50%;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 0px;
+    width: 0px;
+    outline: black;
+    background-size: 30%, 30%;
+    border-radius: 50%;
+    background-color: rgb(1, 44, 92) !important;
+    background-image: none;
+  }
+  .carousel-control-next-icon:after {
+    content: ">";
+    font-size: 0px;
+    color: white;
+  }
+  .carousel-control-prev-icon:after {
+    content: "<";
+    font-size: 0px;
+    color: white;
+  }
 }
 @media (max-width: 767px) {
   /* Footer */
@@ -302,5 +328,32 @@ hr.light {
   }
   .navbar {
     margin-top: 110px;
+  }
+
+  .whatIsFirstText {
+    font-size: 300%;
+  }
+  .photoCaption {
+    font-size: 50%;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 0px;
+    width: 0px;
+    outline: black;
+    background-size: 30%, 30%;
+    border-radius: 50%;
+    background-color: rgb(1, 44, 92) !important;
+    background-image: none;
+  }
+  .carousel-control-next-icon:after {
+    content: ">";
+    font-size: 0px;
+    color: white;
+  }
+  .carousel-control-prev-icon:after {
+    content: "<";
+    font-size: 0px;
+    color: white;
   }
 }
